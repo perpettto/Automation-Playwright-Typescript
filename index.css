@@ -1,11 +1,12 @@
 h1 {
-    text-align: center;
+  text-align: center;
 }
-/* * {
-} */
-
-
-/* main div h2, 
-main div p{
-    font-style: italic;
-} */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
