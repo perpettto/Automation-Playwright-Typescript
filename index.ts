@@ -1,23 +1,20 @@
-console.log("Hello! My first ts code.");
+//Task 1
+let MyName: string = "Petya Petrova";
+let MyAge: number = 44;
+console.log(`Hello! I am ${MyName}, ${MyAge} years old.`);
 
-let fName: string = "";
+//Task2
+let Number1: number = 10;
+let Number2: number = 5;
+let Addition: number = Number1 + Number2;
+let Substraction: number = Number1 - Number2;
+console.log(`Addition is ${Addition}.`);
+console.log(`Substraction is ${Substraction}.`);
 
-const age: number = 20;
-
-let isTrue: boolean = 5 > 7;
-console.log(isTrue);
-
-let singer: null = null;
-
-let country;
-
-country = 15;
-
-let lName: any = 5 > 7;
-console.log(lName);
-
-let numbers: number[] = [10, 20];
-let combined: (string | number)[] = ["string", 10];
-
-let isFalse = (5 > 8 && 5 < 10) === false;
-console.log(isFalse);
+//Task 3
+let num: number = 100;
+let isWithinRange: boolean = num >= 10 || num <= 50;
+console.log(isWithinRange);
+if (isWithinRange === true) {
+  console.log("Num is within range.");
+}
