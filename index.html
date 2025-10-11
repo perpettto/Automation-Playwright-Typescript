@@ -3,37 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
-    <link rel="stylesheet" href="./index.css" />
+    <title>CSS Homework</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <h1>CSS Homework</h1>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-    <h2>Welcome to our page</h2>
 
-    <h2>About our company</h2>
-    <button>Learn More</button>
-    <br />
-    <img
-      src="https://cdn.prod.website-files.com/60b550ccbb1a59f65dc28805/679d08d9ed93cb9c981b53c3_661e5dca8eb67f5abfed52b3_CB3mo20ayudarte20imagen20a20mA1s.jpeg"
-      alt="Company image"
-      width="450"
-    />
-    <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    </p>
-    <p>
-      Lorem Ipsum has been the industry's standard dummy text ever since the
-      1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book.
-    </p>
+    <div class="navbar">
+      <ul>
+        <li><a href="home_page.html">Home</a></li>
+        <li><a href="about_page.html">About</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+      </ul>
+    </div>
+
+    <div class="main">
+      <h2>Welcome to our page</h2>
+      <form>
+        <input type="text" placeholder="Search..." />
+        <button type="submit">Search</button>
+      </form>
+
+      <div class="images">
+        <div class="image">
+          <img
+            src="https://thumbs.dreamstime.com/b/sea-water-ocean-wave-surfing-surface-colorful-vibrant-sunset-barrel-shape-124362369.jpg"
+            alt="Image 1"
+          />
+        </div>
+        <div class="image">
+          <img
+            src="https://thumbs.dreamstime.com/b/ocean-wave-breaking-sunset-realistic-image-351304299.jpg"
+            alt="Image 2"
+          />
+        </div>
+        <div class="image">
+          <img
+            src="https://thumbs.dreamstime.com/b/waves-swirling-ocean-summer-refreshment-huge-fresh-379538966.jpg"
+            alt="Image 3"
+          />
+        </div>
+      </div>
+
+      <div class="description">
+        <h3>Description</h3>
+        <p>Description</p>
+      </div>
+
+      <p class="text">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book.
+      </p>
+    </div>
 
     <footer>
-      <p>© All rights reserved</p>
+      <p>© All rights reserved.</p>
     </footer>
   </body>
 </html>
