@@ -1,3 +1,4 @@
+//интерфейсът е създаден, за да структурира обекти!
 // Interface declaration
 
 interface Car {
@@ -53,7 +54,7 @@ person["address"];
 
 // Properties redeclaration
 person.age = 35;
-console.log(person);
+// console.log(person);
 
 // person = {
 //   age: 20,
@@ -92,7 +93,7 @@ const user: User = {
 
 //optional parameter added later
 user.password = 456987;
-console.log(user);
+// console.log(user);
 
 interface UserPermissions extends User {
   permissions: string;
@@ -106,3 +107,29 @@ const user3: UserPermissions = {
   password: 12345,
   permissions: "denied",
 };
+
+//exercise sum total price
+interface Product {
+  name: string;
+  price: number;
+  getTotalPrice: (quantity: number) => number;
+}
+
+const phone: Product = {
+  name: "Nokia",
+  price: 10,
+  getTotalPrice: function (quantity: number) {
+    return quantity * this.price;
+  },
+};
+
+console.log(phone.getTotalPrice(5));
+
+function orderDetails(quantity: number, product: Product) {
+  console.log(`Order for: ${product.name}`);
+  console.log(`Product quantity: ${quantity}`);
+  console.log(`Product unit price: ${product.price}$`);
+  console.log(`Total price: ${product.getTotalPrice(quantity)}$`);
+}
+
+orderDetails(5, phone);
