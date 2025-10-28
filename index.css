@@ -1,3 +1,52 @@
-h1 {
+h1,
+h2 {
+  text-align: center;
+}
+.images {
+  display: flex;
+  gap: 2px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+.image img {
+  width: 200px;
+  height: 200px;
+  /* padding: 5px; */
+}
+
+body {
+  background-color: white;
+}
+.description {
+  text-align: center;
+  font-weight: bold;
+}
+.navbar {
+  background-color: black;
+  text-align: center;
+}
+a {
+  color: white;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.description {
+  margin-top: 0; /* ако има допълнителен отстъп, го махаме */
+}
+.text {
+  margin-top: 10px; /* по-малко разстояние преди текста */
+}
+footer {
+  background-color: black;
+  color: white;
+  font-size: 10px;
   text-align: center;
 }
