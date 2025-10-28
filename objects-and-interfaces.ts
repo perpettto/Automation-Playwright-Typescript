@@ -1,4 +1,3 @@
-//интерфейсът е създаден, за да структурира обекти!
 // Interface declaration
 
 interface Car {
