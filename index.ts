@@ -1,15 +1,15 @@
 //Task 1
-let MyName: string = "Petya Petrova";
-let MyAge: number = 44;
-console.log(`Hello! I am ${MyName}, ${MyAge} years old.`);
+let myName: string = "Petya Petrova";
+let myAge: number = 44;
+console.log(`Hello! I am ${myName}, ${myAge} years old.`);
 
 //Task2
-let Number1: number = 10;
-let Number2: number = 5;
-let Addition: number = Number1 + Number2;
-let Substraction: number = Number1 - Number2;
-console.log(`Addition is ${Addition}.`);
-console.log(`Substraction is ${Substraction}.`);
+let number1: number = 10;
+let number2: number = 5;
+let addition: number = number1 + number2;
+let substraction: number = number1 - number2;
+console.log(`Addition is ${addition}.`);
+console.log(`Substraction is ${substraction}.`);
 
 //Task 3
 let num: number = 100;
